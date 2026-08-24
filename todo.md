@@ -1,0 +1,294 @@
+# Project TODO
+
+- [x] Koyu lacivert, sıcak vurgu renkleri ve harita odaklı hiyerarşiyle public-facing tasarım sistemini kurmak
+- [x] Türkiye'nin 81 ilini içeren erişilebilir etkileşimli SVG harita bileşenini oluşturmak
+- [x] Kullanıcıların kayıt/giriş sonrası temsil ettikleri ili yalnızca bir kez seçebilmesini sağlamak
+- [x] Şehir, kullanıcı profili, günlük katılım, günlük il sıralaması ve Hall of Fame tablolarını tasarlamak
+- [x] Kullanıcının yalnızca temsil ettiği il için günlük katılım yapmasını ve günlük katılım sınırını uygulamak
+- [x] Sunucu tarafında tekrar katılım/abuse denetimi, işlemsel puan güncellemesi ve doğrulanabilir hata durumları eklemek
+- [x] Güncel il puanı, Türkiye sırası, günün il lideri ve kişisel günlük katılım bilgisini göstermek
+- [x] Günlük toplam puana göre 81 ili sıralamak ve ilk üç ili podyum alanında öne çıkarmak
+- [x] İl ayrıntı görünümü ile seçilen ilin liderlik ve katılım verilerini sunmak
+- [x] Geçmiş günlük il ve kullanıcı liderlerini Hall of Fame arşivinde göstermek
+- [x] Türkiye saatine göre gece yarısı sonuç arşivleme ve günlük puanları sıfırlama işini canlı ortamda güvenilir zamanlanmış göreve bağlamak
+- [x] Gün sonu geri sayımı, kayıt ve katılım çağrılarını mobil uyumlu ana sayfaya eklemek
+- [x] Uygulama kurallarını test eden Vitest birim testlerini yazmak ve çalıştırmak
+- [x] Masaüstü ve mobil ekran görüntüleri ile arayüzü gözden geçirmek
+- [x] Teyit edilen il seçimi kilidi ve günlük tek katılım kuralı için ek birim testleri eklemek
+- [x] Tüm tamamlanan maddeleri işaretleyip beta kontrol noktası oluşturmak
+- [x] Üst menüye Hakkımızda bağlantısını eklemek
+- [x] Platform amacı ve işleyişini açıklayan Hakkımızda sayfasını oluşturmak
+- [x] Katılım, il seçimi, puanlama ve adil kullanım ilkelerini açıklayan Kurallar bölümünü eklemek
+- [x] Mobil üst menüde tüm ana sayfa bağlantılarını hamburger menü üzerinden erişilebilir kılmak
+- [x] Mobil açılır menüyü küçük ekran ekran görüntüsü ve klavye erişimiyle doğrulamak
+- [x] Mobil hamburger menünün açık durumunu ve klavye ile tetiklenmesini etkileşimli olarak doğrulamak
+- [x] Mobil menü için yumuşak açılış animasyonu ve azaltılmış hareket desteği eklemek
+- [x] Geçerli sayfa ile ana sayfadaki aktif bölümü mobil menüde vurgulamak
+- [x] Animasyon ve aktif bağlantı durumunu mobil etkileşim testiyle doğrulamak
+- [x] Mobil menü animasyon stillerini ve azaltılmış hareket tercihini istemci testiyle doğrulamak
+- [x] Hakkımızda sayfasındaki mobil menüde aktif bağlantı vurgusunu etkileşim testiyle doğrulamak
+- [x] Açılmış mobil hamburger menü panelinin görünür olmamasına yol açan stil çakışmasını gidermek
+- [x] Mobil menünün açık durumunu görünürlük ve klavye etkileşimiyle yeniden doğrulamak
+- [x] Mobil açılır menüyü akış içinde konumlandırarak hero metniyle çakışmasını önlemek
+- [x] Akış içi menü yerleşimini küçük ekran görünümünde doğrulamak
+- [x] Açık mobil menünün gerçek küçük ekran tarayıcısında hero metniyle çakışmadığını doğrulamak
+- [x] Gerçek mobil tarayıcı yerleşim doğrulamasında menü alt sınırını doğru hesaplayıp çakışmama kontrolünü yeniden çalıştırmak
+- [x] Yönetici rolü dışındaki kullanıcıların yönetim verilerine erişimini engellemek
+- [x] Günlük yarış özeti, katılım sayısı, il sıralaması ve sistem görevi durumunu döndüren yönetici sorgusunu eklemek
+- [x] Hall of Fame arşivi ve güncel liderlik tablosunu yönetim görünümünde sunmak
+- [x] Yönetici rolü için responsive yönetim paneli rotası ve navigasyonu oluşturmak
+- [x] Yönetim paneli yetkilendirmesi ile ana metriklerini test etmek
+- [x] Yönetim paneli metrikleri ve içerik kartlarının mobil ekranda çakışmadan tek sütunda akmasını sağlamak
+- [x] Yönetim panelinde birden fazla günü kapsayan gerçek Hall of Fame arşiv geçmişini sunmak
+- [x] Admin overview için başarı yolunu ve ana metrikleri doğrulayan test eklemek
+- [x] Yönetim paneli metrik kartlarını mobilde gerçekten tek sütuna indirip yeniden doğrulamak
+- [x] Hall of Fame geçmişini gün bazında gruplayarak birden fazla yarış gününü yönetim panelinde görünür kılmak
+- [x] Çok günlü Hall of Fame görünümünü test ve küçük ekran önizlemesiyle doğrulamak
+- [x] Gün bazında gruplanmış Hall of Fame bölümünü son sürümde mobil önizleme ile doğrulamak
+- [x] Mevcut koyu görünümü varsayılan tema olarak koruyup kullanıcı tercihini kalıcı saklamak
+- [x] Gündüz ve karanlık mod arasında erişilebilir bir tema geçiş kontrolü eklemek
+- [x] Ana sayfa, Hakkımızda ve yönetim panelinde gündüz temasının kontrastını ve yüzeylerini uyarlamak
+- [x] Tema geçişini, tercih kalıcılığını ve mobil görünümü test etmek
+- [x] Gündüz temada ikincil eylem ve küçük metinlerin kontrastını iyileştirmek
+- [x] Yönetim paneli yüzey, arka plan ve metin kontrastını gündüz/karanlık temalara göre belirgin biçimde uyarlamak
+- [x] Gündüz temanın mobil Hakkımızda ve yönetim ekranlarında gerçek tarayıcı görünümünü doğrulamak
+- [x] Tema düğmesi tıklamasının sayfa düzeyinde kök tema sınıfını değiştirdiğini istemci testiyle doğrulamak
+- [x] Gündüz temadaki mobil yönetim ekranında tema düğmesi, kart yüzeyleri ve metin kontrastını gerçek tarayıcıyla doğrulamak
+- [x] Gündüz moddaki mobil yönetim panelinin admin verileri, tema düğmesi ve kontrastını görsel doğrulama notuyla belgelemek
+- [x] Kullanıcı manuel tercih yapmadığında cihazın gündüz/karanlık modunu otomatik algılamak
+- [x] Manuel tema seçiminin sistem tercihine göre öncelikli ve kalıcı olmasını sağlamak
+- [x] İl haritasını günlük oy yoğunluğuna göre açık tondan koyu tona ölçeklemek
+- [x] Harita renk yoğunluğu ile tema öncelik akışını birim ve görsel testlerle doğrulamak
+- [x] Oy yoğunluğu renk ölçeği birim testinin test paketine dahil edilip çalıştığını doğrulamak
+- [x] Haritada üç farklı oy seviyesinin açık, orta ve koyu tonlarla ayrıştığını kontrollü veride doğrulamak
+- [x] Harita ili üzerine gelindiğinde il adı, günlük oy sayısı ve Türkiye sırasını gösteren tooltip eklemek
+- [x] Tooltipin klavye odağında görünmesini ve odak kaybolduğunda kapanmasını sağlamak
+- [x] Tooltip konumlandırmasını masaüstü ve mobil görünümde doğrulamak
+- [x] Tooltipin harita içindeki genişliğini içeriğe göre sınırlayıp üstten kırpılmadan okunur konumlanmasını sağlamak
+- [x] Mobilde bir ile dokunulduğunda bilgi baloncuğunu açma ve tekrar dokunulduğunda kapatma davranışını eklemek
+- [x] Harita tooltipinin mobil viewportta il adı, oy sayısı ve sıra metnini taşmadan gösterdiğini gerçek tarayıcıda doğrulamak
+- [x] Mobil tooltip konumlandırması için ekran görüntüsü ve ölçüm tabanlı taşma kontrolü eklemek
+- [x] Masaüstünde fareyle il üzerine gelindiğinde tooltipin açılmasını ve imleç ayrıldığında kapanmasını güvenilir biçimde sağlamak
+- [x] Mouse hover tooltip davranışını gerçek masaüstü tarayıcıda doğrulamak
+- [x] Tooltipin açılışında kısa ve yumuşak bir görünürlük/hareket animasyonu eklemek
+- [x] Tooltip kapanışını kaldırmadan önce akıcı biçimde tamamlayan bir çıkış animasyonu eklemek
+- [x] Tooltip animasyonlarının hareket azaltma tercihini gözettiğini test etmek
+- [x] Tıklama veya dokunma ile açılan tooltipi ilk kareden net ve sabit göstermek
+- [x] Fare hover geçişini korurken sabit tıklama görünümünü masaüstü ve mobilde doğrulamak
+- [x] Tooltipte seçilen ilin günün liderini gerçek liderlik verisiyle göstermek
+- [x] Tooltipte günlük oy, Türkiye sırası ve lider puanını düzenli istatistik alanları olarak sunmak
+- [x] Zenginleştirilmiş tooltipin lideri olmayan il boş durumunu ve masaüstü-mobil yerleşimini doğrulamak
+- [x] Tooltipten oy veren kişi adını ve bireysel katkı bilgisini kaldırmak
+- [x] Tooltipte yalnızca il bazlı günlük istatistiklerin kaldığını masaüstü ve mobilde doğrulamak
+- [x] Harita il seçiminin sıralama ve podyum kartlarına uyguladığı vurgu efektini kaldırmak
+- [x] Harita seçili il göstergesi korunurken kartların normal görünümünü masaüstü ve mobilde doğrulamak
+- [x] Oy veren kişi adlarını ve bireysel katkı bilgilerini tüm herkese açık alanlardan kaldırmak
+- [x] Kayıtlı kullanıcıları yalnızca admin rolüyle erişilebilen backend sorgusundan listelemek
+- [x] Admin panelinde kayıtlı kullanıcılar için ayrı menü ve erişilebilir liste görünümü eklemek
+- [x] Admin oturumunda kullanıcı listesinin masaüstü ve mobil görünümünü ölçümlü biçimde doğrulamak
+- [x] Normal kullanıcıların kullanıcı listesi backend erişiminin engellendiğini ve admin görünümünün responsive olduğunu doğrulamak
+- [x] Admin kullanıcı listesini Word belgesi olarak indiren yetkili dışa aktarma düğmesi eklemek
+- [x] Word belgesinde kullanıcı başlıkları, kayıt satırları ve oluşturulma bilgisini doğrulamak
+- [x] Word indirme düğmesinin admin erişimi ve masaüstü-mobil görünümünü doğrulamak
+- [x] Word dışa aktarma hatasında yöneticiye görünür hata bildirimi eklemek ve test etmek
+- [x] Word belgesinin oluşturulma üst bilgisi, başlıkları ve kullanıcı satırlarını belge üretim verisinde doğrulamak
+- [x] Yönetici önizlemesinde Word indirme düğmesini masaüstü ve mobilde yeniden doğrulamak
+- [x] Ana sayfa başlığındaki “zirveye” metninin istenen boşlukla doğru göründüğünü doğrulamak
+- [x] Görsel düzenleme uygulanmadıysa başlık metninin mevcut ayracıyla zaten doğru olduğunu doğrulayıp kontrol noktası oluşturmak
+- [x] Ana sayfa başlığındaki “zirveye” metninin mevcut ayracıyla doğru olduğunu doğruladıktan sonra yeni checkpoint oluşturmak
+- [x] Yeni checkpoint açıklamasında görsel düzenleme isteğinin zaten mevcut kaynakta karşılandığını belirtmek
+- [x] Haritada il seçildiğinde açılan şehir ayrıntı penceresinin mevcut veri ve etkileşim akışını incelemek
+- [x] Seçili ilin sıra, günlük oy ve katılım çağrısını gösteren Şehir Valisi ayrıntı penceresini eklemek
+- [x] Şehir Valisi alanında kişisel kullanıcı verisi göstermeden gizlilik kurallarını korumak
+- [x] İl ayrıntı penceresinin erişilebilirlik, kapatma ve katılım yönlendirmesi davranışlarını test etmek
+- [x] Şehir ayrıntı penceresini masaüstü ve mobilde görsel olarak doğrulamak
+- [x] Şehir Valisi popup CTA’sının giriş veya katılım akışını tetiklediğini ve Escape ile kapandığını istemci testiyle doğrulamak
+- [x] Haritadan Şehir Valisi popup’ını masaüstü ve 375×812 mobil gerçek tarayıcıda açıp görünümünü ve sığmasını doğrulamak
+- [x] Harita renklerinin yanıp sönmesine yol açan render veya stil nedenini belirlemek
+- [x] Günlük puan renklerini kararlı tutup seçili il sınırını titreşimsiz biçimde görünür kılmak
+- [x] Harita renk kararlılığını ve seçili il görünümünü birim testle doğrulamak
+- [x] Düzeltilen haritayı masaüstü ve mobil gerçek tarayıcıda doğrulamak
+- [x] Şehir Valisi alanını reklam/sponsor içeriği için ayrılmış bir kart olarak tasarlamak
+- [x] Şehir penceresindeki sıra, puan, oy çağrısı ve reklam hiyerarşisini referans görsele yaklaştırmak
+- [x] Reklam alanında kişisel lider veya kullanıcı bilgisi göstermeden gizliliği korumak
+- [x] Reklam/sponsor kartının erişilebilir etiketini ve etkileşim durumunu test etmek
+- [x] Şehir Valisi reklam alanını masaüstü ve mobil gerçek tarayıcıda doğrulamak
+- [x] Şehir Valisi reklam kartının erişilebilir adını istemci testiyle doğrulamak
+- [x] Şehir Valisi başvuruları için kullanıcı, şehir ve başvuru bilgilerini saklayan veri modelini oluşturmak
+- [x] Giriş yapmış kullanıcıların başvurularını güvenli biçimde kaydeden tRPC işlemini eklemek
+- [x] Reklam kartı eylemini Şehir Valisi Ol olarak güncelleyip başvuru popup formunu açmak
+- [x] Başvuru formunda şehir, marka/kurum adı, iletişim e-postası, web adresi ve açıklama doğrulaması eklemek
+- [x] Başvuru gönderimi, giriş zorunluluğu, hata ve başarı durumlarını test etmek
+- [x] Şehir Valisi başvuru popup’ını masaüstü ve mobilde görsel olarak doğrulamak
+- [x] Başvuru başarısında popup kapanışı ve başarı bildirimini istemci testiyle doğrulamak
+- [x] Başvuru hatasında kullanıcıya görünür hata bildirimini istemci testiyle doğrulamak
+- [x] Şehir Valisi başvuru popup’ını masaüstü ve 375×812 mobil gerçek tarayıcıda açıp sığmasını doğrulamak
+- [x] Oturum açılmış kullanıcıda Ankara şehir penceresinden Şehir Valisi Ol eyleminin masaüstü popup’ı açtığını doğrulamak
+- [x] Başvuru popup’ının 375×812 responsive görünümünde form alanları, kapatma düğmesi ve CTA sığmasını doğrulamak
+- [x] Şehir Valisi başvuru popup’ının mevcut açık/koyu tema stillerini incelemek
+- [x] Popup, form alanları, odak durumu ve CTA’yı etkin temaya göre otomatik uyarlamak
+- [x] Açık ve koyu tema popup stillerinin erişilebilirliğini test etmek
+- [x] Açık ve koyu temada masaüstü ve mobil popup görünümünü doğrulamak
+- [x] Şehir Valisi başvuru popup’ını 375×812 mobil görünümde gündüz temasında doğrulamak
+- [x] Açık mobil popup koyu temaya geçtiğinde yüzey, metin ve CTA kontrastını doğrulamak
+- [x] Şehir Valisi başvurularında logo veya tanıtım dosyası meta verisini saklayacak veri modelini eklemek
+- [x] Dosyaları güvenli depolamaya yükleyen ve yalnızca başvuru sahibi/admin erişimine açan sunucu işlemlerini eklemek
+- [x] Kullanıcıların yalnızca kendi başvurularını görüntüleyebileceği Başvurularım sayfasını eklemek
+- [x] Adminlerin tüm başvuruları dosya bağlantıları ve kullanıcı bilgileriyle inceleyebileceği yönetim ekranını eklemek
+- [x] Admin onay/ret kararının başvuru durumunu ve karar notunu güncellemesini sağlamak
+- [x] Şehir Valisi formuna logo/tanıtım dosyası seçim, yükleme ve hata deneyimini eklemek
+- [x] Başvuru dosyası erişimi, karar yetkisi ve kullanıcı görünürlüğü için testleri eklemek
+- [x] Yeni başvuru yönetimi akışlarını masaüstü ve mobilde doğrulamak
+- [x] attachmentKey alanının Drizzle migration dosyasında bulunduğunu doğrulamak
+- [x] Gerçek tarayıcıda dosya ekli başvuru gönderimi ve ek dosya açma akışını doğrulamak
+- [x] Gerçek admin oturumunda onay veya ret kararı sonrası kullanıcı durumunun güncellendiğini doğrulamak
+- [x] Onaylanan Şehir Valisi başvurusunu şehir ayrıntı penceresine yalnızca gerekli marka ve kampanya verileriyle bağlamak
+- [x] Şehir ayrıntısında referans hiyerarşisini izleyen onaylı sponsor kartını ve marka sitesi eylemini eklemek
+- [x] Onaylı sponsor kartının boş durumunu, erişilebilirliğini ve masaüstü-mobil görünümünü test etmek
+- [x] Public onaylı sponsor çıktısını yalnızca şehir, marka, web adresi ve kampanya metniyle sınırlamak
+- [x] Onaylı sponsor kartını 375×812 mobil görünümde gerçek tarayıcı ile açıp CTA yerleşimi ve taşmama durumunu doğrulamak
+- [x] Toplam ziyaret ve toplam oy için kişisel veri içermeyen özet metrikleri sunmak
+- [x] Çevrimiçi kullanıcı sayısını yalnızca toplam olarak izleyip kısa aralıklı canlı güncellemek
+- [x] Ana sayfada örnek hiyerarşisini izleyen online/ziyaret/oy durum şeridini eklemek
+- [x] Durum şeridinin gizlilik, test ve masaüstü-mobil görünüm doğrulamasını tamamlamak
+- [x] Onaylı sponsorların yalnızca görsel formatlı ek dosyaları için güvenli logo URL’si üretmek
+- [x] Şehir Valisi kartını logo, marka adı, kampanya metni ve birincil-ikincil eylem hiyerarşisiyle güncellemek
+- [x] Logo bulunmayan veya PDF ekli sponsorlar için erişilebilir görsel yedek durum eklemek
+- [x] Logo kartını açık-koyu tema ile masaüstü ve 375×812 mobil görünümde doğrulamak
+- [x] Sponsor logolu kartı 375×812 mobilde koyu temada doğrulayıp logo, CTA ve taşma bulgularını belgelemek
+- [x] Sponsor kartı ikincil eylemini “Valiliği Devral” metnine güncellemek
+- [x] İkincil eyleme küçük ve erişilebilir bir simge eklemek
+- [x] Güncellenen eylemi test ve mobil görünümde doğrulamak
+- [x] Kullanıcının sağladığı sponsor logosunu web varlığı olarak barındırmak
+- [x] Sponsor kartında kullanıcı logosunu tema uyumlu yüzey ve oranla göstermek
+- [x] Yeni logo görünümünü açık-koyu tema ile masaüstü ve mobilde doğrulamak
+- [x] Harita tıklama testinin etkileşim dinleyicisi hazır olduktan sonra doğrulama yapmasını sağlamak
+- [x] Wordmark logosunun sponsor kartındaki tekrarını kaldırmak
+- [x] Wordmark logosunu yalnızca üst navigasyonda uygun boyutta tutmak
+- [x] Tekil wordmark kullanımını test ve mobil görünümde doğrulamak
+- [x] Üst navigasyondaki geniş wordmark görselini kaldırmak
+- [x] Önceki sade rozetli metin marka görünümünü geri yüklemek
+- [x] Geri yüklenen üst marka alanını test ve mobil görünümde doğrulamak
+- [x] Onaylı sponsorların yalnız görsel logolarını şehir koduna göre harita rozet verisine dönüştürmek
+- [x] Şehirlerin üzerinde erişilebilir, tema uyumlu logo rozetlerini göstermek
+- [x] Rozet tıklamasının şehir ayrıntısını açmasını ve harita etkileşimini korumasını sağlamak
+- [x] Logo rozetlerini test, masaüstü ve 375×812 mobil harita görünümünde doğrulamak
+- [x] Sponsor rozeti olmayan harita görünümünde rozet konum etkisini kararlı hale getirmek
+- [x] Sponsor rozetinde şehir ve marka adını gösteren erişilebilir tooltip eklemek
+- [x] Tooltipte kişisel başvuru sahibi veya iletişim verisi göstermemek
+- [x] Harita sponsor rozetlerini hafifçe küçültüp tooltip çakışmalarını önlemek
+- [x] Tooltip ve kompakt rozetleri test, masaüstü ve 375×812 mobil görünümde doğrulamak
+- [x] Yönetici için onaylı Şehir Valisi kaydını yeniden incelemeye alma işlemi eklemek
+- [x] Kaldırılan sponsorun şehir kartı ve harita rozetinden public olarak kaybolmasını sağlamak
+- [x] Kaldırma işlemini yalnızca yönetici yetkisiyle sınırlandırıp geçmiş kayıtları korumak
+- [x] Kaldırma işlemini test ve responsive yönetim ekranında doğrulamak
+- [x] Harita tooltip testinin etkileşim dinleyicisi hazır olduktan sonra hover doğrulaması yapmasını sağlamak
+- [x] Kaldırılmış başvuru testinde yinelenen durum etiketini belirsizsiz doğrulamak
+- [x] Ana sayfadaki Geçmiş Şampiyonlar alanını yalnız ilk 5 kayıtla sınırlandırmak
+- [x] Tüm Geçmiş Şampiyonları gösteren ayrı bir sayfa oluşturmak
+- [x] Ana sayfa önizlemesinin altına Tüm Şampiyonlar yönlendirme düğmesi eklemek
+- [x] Şampiyon önizlemesi ve tam liste sayfasını test, masaüstü ve mobilde doğrulamak
+- [x] Tüm iller için kısa ve şehirle ilişkili öne çıkan özellik metinleri tanımlamak
+- [x] Şehir ayrıntı popupına öne çıkan özellik bilgi alanı eklemek
+- [x] Bilgi alanının açık-koyu tema ve mobil görünümünü doğrulamak
+- [x] Şehir öne çıkan özellik verisini ve popup görünümünü test etmek
+- [x] Ana sayfadaki Seçili İl özet alanını kaldırmak
+- [x] Onaylı sponsorları yalnız public şehir, marka, kampanya ve izinli logo verisiyle Şehrin Valileri listesinde göstermek
+- [x] Liste kartlarına şehir açma ve Valiliği Devral eylemlerini eklemek
+- [x] Şehrin Valileri alanını açık-koyu tema, masaüstü ve 375×812 mobil görünümde doğrulamak
+- [x] Şehrin Valileri veri görünürlüğü ve etkileşimlerini Vitest ile test etmek
+- [x] Ana sayfadaki Şehrin Valileri kartlarını daha kompakt hale getirmek
+- [x] Ana sayfadaki Şehrin Valileri alanını ilk 6 onaylı sponsorla sınırlandırmak
+- [x] Tüm Vali Listesi sayfasını, geri dönüş bağlantısını ve rota kaydını eklemek
+- [x] Tüm Vali Listesi sayfasında tüm onaylı sponsorların public verisini göstermek
+- [x] Vali önizlemesini ve tam liste sayfasını açık-koyu tema, masaüstü ve 375×812 mobilde doğrulamak
+- [x] Önizleme sınırını, yönlendirmeyi ve tam liste içeriğini Vitest ile test etmek
+- [x] Tüm Vali Listesi kartını onaylı başvurudaki web adresine yönlendirmek
+- [x] Dış bağlantının güvenli hedef, erişilebilir ad ve yeni sekme davranışını test etmek
+- [x] Vali kartı dış bağlantısını masaüstü ve 375×812 mobil görünümde doğrulamak
+- [x] Ana sayfadaki vali önizleme kartlarının tamamını ilgili web sitesine bağlamak
+- [x] Tüm Vali Listesi kartlarından Siteyi ziyaret et ibaresini kaldırmak
+- [x] Her iki listede kart tabanlı dış bağlantı güvenliği ve erişilebilirliğini test etmek
+- [x] Kart tabanlı dış bağlantıları masaüstü ve 375×812 mobil görünümde doğrulamak
+- [x] Tüm Vali Listesi kartlarında başlık altındaki tekrar eden şehir adını kaldırmak
+- [x] Güncellenen vali kartlarını test ve masaüstü-mobil görünümde doğrulamak
+- [x] Şehrin Valileri canlı durum noktasına yumuşak yanıp sönme animasyonu eklemek
+- [x] Canlı durum animasyonunun hareket azaltma tercihini gözettiğini test etmek
+- [x] Canlı durum animasyonunu masaüstü ve 375×812 mobil görünümde doğrulamak
+- [x] Ana sayfadaki Tüm Vali Listesi bağlantısını sola hizalayıp üst çizgisini kaldırmak
+- [x] Tam liste başlığını 81 İlin Valileri olarak güncellemek
+- [x] Aktif Valiler, Taht Tarihçesi ve Tüm Şehirler hızlı filtre menüsünü eklemek
+- [x] Şehir, vali/marka veya plaka ile arama alanını eklemek
+- [x] Filtre ve arama boş durumlarını erişilebilir biçimde sunmak
+- [x] Liste geliştirmelerini Vitest ile test etmek
+- [x] Güncellenen ana sayfa ve tam listeyi açık-koyu tema ile masaüstü ve 375×812 mobilde doğrulamak
+- [x] Şehir Valisi değişiklik geçmişi için kalıcı veri modeli ve migration eklemek
+- [x] Onay, ret, kaldırma, yeniden inceleme ve yeni başvuru güncellemesi gibi vali değişikliklerini geçmişe kaydetmek
+- [x] Eski Valiler için yalnız public marka, şehir, kampanya, logo ve değişiklik tarihi döndüren sorgu eklemek
+- [x] Taht Tarihçesi filtre adını Eski Valiler yapıp geçmiş kartlarını göstermek
+- [x] Eski Vali kartlarını ve boş durumunu açık-koyu tema ile responsive hale getirmek
+- [x] Geçmiş kayıtları, public gizlilik filtresini ve görünümü Vitest ile doğrulamak
+- [x] Günlük sıralama alanını Şehir Sıralaması başlığı ve görsel hiyerarşisiyle güncellemek
+- [x] 81 ili Türkiye’nin yedi coğrafi bölgesiyle eşlemek
+- [x] Şehir adı veya plaka koduyla sıralama arama alanını eklemek
+- [x] Tüm Bölgeler ve yedi bölge için hızlı filtre menüsü eklemek
+- [x] Filtrelenmiş sıralama, sonuç sayısı ve boş durumları erişilebilir biçimde göstermek
+- [x] Şehir arama ve bölge filtrelemesini Vitest ile test etmek
+- [x] Şehir sıralamasını açık-koyu tema ile masaüstü ve 375×812 mobil görünümde doğrulamak
+- [x] Tüm zamanlar şehir oy toplamları ve yüzdeleri için public sıralama verisini hazırlamak
+- [x] Tüm Bölgeler filtresinde tüm zamanlar oyuna göre sıralanan ayrıntılı şehir kartlarını göstermek
+- [x] Kartlara gerçek oy oranı ilerleme çubuğunu eklemek
+- [x] Kartlarda tıklanabilir aktif Şehir Valisi bilgisi ve markanın izinli logo/web sitesi bağlantısını göstermek
+- [x] Kartlarda şehir bazlı Eski Valiler özetini ve açıklanabilir boş durumunu göstermek
+- [x] Tüm zamanlar sıralaması ve governor geçmişi için public gizlilik filtresini Vitest ile test etmek
+- [x] Tüm Bölgeler kartlarını açık-koyu tema ile masaüstü ve 375×812 mobilde doğrulamak
+- [x] Tüm bölge filtrelerini günlük tablo yerine tüm zamanlar şehir kartlarına bağlamak
+- [x] Bölge kartlarında gerçek oy yüzdesi, aktif Şehir Valisi ve Eski Valiler özetini korumak
+- [x] Bölge kartlarının şehir araması ve bölge seçimiyle birlikte doğru filtrelendiğini Vitest ile test etmek
+- [x] Bölge kartlarını açık-koyu tema ile masaüstü ve 375×812 mobilde doğrulamak
+- [x] Şehir Sıralaması aktif Şehir Valisi kartlarından yönlendirme okunu kaldırmak
+- [x] Aktif Şehir Valisi kartlarının altına mevcut başvuru popupını açan Valiliği Devral eylemini eklemek
+- [x] Devral eyleminin anonim giriş yönlendirmesi ve oturumlu popup akışını Vitest ile test etmek
+- [x] Güncellenen vali kartlarını açık-koyu tema ile masaüstü ve 375×812 mobilde doğrulamak
+- [x] Valisi olmayan şehir kartlarına Bedavaya Vali Ol! çağrı kartını eklemek
+- [x] Ücretsiz valilik çağrısını mevcut başvuru popupı ve giriş akışına bağlamak
+- [x] Ücretsiz valilik kartını erişilebilir, açık-koyu ve responsive hale getirmek
+- [x] Anonim ve oturumlu ücretsiz valilik başvuru akışını Vitest ile test etmek
+- [x] Ücretsiz valilik popupına paylaşım ve oy getirme mekanizmasını açıklayan güvenli davet alanını eklemek
+- [x] Benzersiz davet bağlantısı ve gizlilik dostu dönüşüm sayacı için veri modelini tasarlamak
+- [x] Davet bağlantısından gelen yeni ziyaretçi katılımını şehir bazında doğrulamak
+- [x] Davet akışını masaüstü-mobilde ve Vitest ile doğrulamak
+- [x] Mobil cihazlarda davet bağlantısı için yerel paylaşım eylemini eklemek
+- [x] Davet performanslarını yalnız toplu ve public marka/şehir verisiyle yöneticiye sunmak
+- [x] Yönetici paneline responsive davet performansı görünümü eklemek
+- [x] Yerel paylaşım, yönetici yetkisi ve performans metriklerini Vitest ile doğrulamak
+- [x] Ücretsiz valilik popupında başarılı davet sayısına göre dolan teşvik edici ilerleme çubuğunu geliştirmek
+- [x] Davet performansını yönetim ana sayfasından kaldırıp ayrı bir yönetici sayfasına taşımak
+- [x] Yönetim sol menüsüne Davet performansları sayfa bağlantısını eklemek
+- [x] Yeni popup ilerlemesi, rota, yetki ve responsive görünümü Vitest ile doğrulamak
+- [x] Şehir oylarını hesap oluşturmadan gönderilebilen anonim akışa dönüştürmek
+- [x] Her IP için günlük tek oy sınırını ham IP saklamadan uygulamak
+- [x] Anonim oyda şehir seçimini açık ve erişilebilir hale getirmek
+- [x] Şehir Valisi başvurularında giriş zorunluluğunu koruyup test etmek
+- [x] Anonim oy, günlük IP sınırı ve başvuru yetkisini Vitest ile doğrulamak
+- [x] Oylama alanının hemen altında IP başına günlük tek oy kuralını açıklayan erişilebilir bilgilendirme alanı eklemek
+- [x] Bilgilendirme alanını Vitest ve masaüstü-mobil görünümle doğrulamak
+- [x] Referans Hakkımızda sayfasının bilgi mimarisini ve görsel ritmini incelemek
+- [x] Hakkımızda sayfasını sehrim.lol temasını koruyarak referans düzenine uyarlamak
+- [x] Yenilenen Hakkımızda sayfasını masaüstü-mobil ve Vitest ile doğrulamak
+- [x] Tekrar anonim oyda oluşan veritabanı benzersiz kayıt hatasını güvenli biçimde eşlemek
+- [x] İkinci oy denemesinde günlük sınırı açıklayan kullanıcı dostu bilgi mesajını göstermek
+- [x] Oy hata yanıtında IP parmak izi ve SQL ayrıntılarının görünmediğini Vitest ile doğrulamak
+- [x] Ortak Wi‑Fi ağlarında IP sınırının nasıl çalıştığını Hakkımızda sayfasında kısa biçimde açıklamak
+- [x] Tekrar oy bilgi mesajına Türkiye saatine göre gece yarısına kalan canlı süreyi eklemek
+- [x] Ortak Wi‑Fi açıklaması ve geri sayımlı bilgi mesajını Vitest ile doğrulamak
+- [x] Harita şehir ayrıntısı penceresindeki oy düğmesinden seçili şehre doğrudan anonim oy göndermek
+- [x] Şehir ayrıntısından doğrudan oy akışını Vitest ile doğrulamak
+- [x] Başarılı oy bildirimine şehir sonucunu paylaşma eylemi eklemek
+- [x] Yerel paylaşım ve bağlantı kopyalama yedeğini Vitest ile doğrulamak
+- [x] Sayfa yenilendikten sonra aynı IP için ikinci oyun istemci arayüzünden engellenmesini sağlamak
+- [x] Yenileme sonrası günlük oy kilidini Vitest ile doğrulamak
+- [x] Ana sayfadaki Günün Podyumu bölümünü kaldırmak
+- [x] Podyum kaldırıldıktan sonra ana sayfa yerleşimini ve Vitest kapsamını doğrulamak
+- [x] Günlük oy durumu yüklenmeden veya doğrulanmadan oy düğmesinin etkinleşmesini engellemek
+- [x] Yenileme sonrası ikinci oy engelini yüklenme ve hata durumlarıyla Vitest'te doğrulamak

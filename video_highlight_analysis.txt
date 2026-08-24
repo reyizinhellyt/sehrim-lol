@@ -1,0 +1,18 @@
+Starting video analysis...
+Submitting video analysis task...
+Task submitted (ID: video-analysis-ecd79c55-ba17-4d3a-b64f-e83402b1397f)
+[8s] Status: Analyzing video content with AI...
+[11s] Status: Analysis completed
+[11s] Analysis completed!
+Full analysis result saved to: /home/ubuntu/video_WhatsAppVideo2026-08-23at14.28.37_analysis_20260823_113225.md
+Note: This tool performs AI-based visual and audio analysis, not verbatim transcription. For detailed speech transcription, use `manus-speech-to-text` instead.
+Analysis result:
+
+Videoda harita üzerinde farklı şehirlere (Sivas, Diyarbakır, Denizli, Erzincan) tıklandığında gerçekleşen görsel değişimler şu şekildedir:
+
+*   **Harita Etkileşimi:** Bir şehre tıklandığında, o şehrin harita üzerindeki rengi koyulaşmakta ve üzerinde o şehre ait verileri (günlük oy, Türkiye sırası) gösteren siyah bir bilgi kutucuğu (tooltip) açılmaktadır.
+*   **Seçili İl Bölümü:** Haritanın hemen altında yer alan "SEÇİLİ İL" bölümündeki şehir ismi ve sağ üst köşedeki sıralama numarası, haritadaki seçime paralel olarak anlık ve sorunsuz bir şekilde güncellenmektedir.
+*   **Renk ve Parlama:** Videoda görünen kısımlarda, şehir seçiminden sonra herhangi bir **renk değişimi, parlama veya istenmeyen bir kart vurgusu (glow/highlight) gözlemlenmemektedir.**
+*   **Sıralama/Podyum Kartları:** Kullanıcı sorusunda belirtilen "sıralama veya podyum kartları" bu video kesitinde kadraja girmemektedir. Bu nedenle, bu kartlar üzerindeki olası bir görsel hata veya vurgu durumu bu görüntüden tespit edilememektedir.
+
+Özetle, videoda görünen UI bileşenlerinde (harita ve seçili il paneli) herhangi bir görsel bozulma veya istenmeyen parlama efekti bulunmamaktadır.

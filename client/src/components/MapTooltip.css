@@ -1,0 +1,18 @@
+.turkey-map { position: relative; overflow: hidden; }
+
+.map-vote-tooltip { position: absolute; z-index: 4; width: min(206px, calc(100% - 28px)) !important; min-width: 176px; padding: 11px 12px; border: 1px solid rgba(225,240,235,.26); border-radius: 9px; background: rgba(17,47,56,.96); color: #eef4ed; box-shadow: 0 12px 30px rgba(13,34,40,.28); pointer-events: none; transform: translate(-50%, -108%); }
+.map-vote-tooltip::after { content: ""; position: absolute; bottom: -5px; left: 50%; width: 9px; height: 9px; border-right: 1px solid rgba(225,240,235,.26); border-bottom: 1px solid rgba(225,240,235,.26); background: rgba(17,47,56,.96); transform: translateX(-50%) rotate(45deg); }
+.map-vote-tooltip-kicker { display: block; color: #a7c7c2; font-family: "DM Mono", monospace; font-size: .53rem; letter-spacing: .1em; }.map-vote-tooltip strong { display: block; margin: 5px 0 8px; font-size: .9rem; }.map-vote-tooltip-stats { display: grid; grid-template-columns: repeat(2, 1fr); gap: 6px; margin: 0; }.map-vote-tooltip-stats > div { display: grid; gap: 2px; min-width: 0; }.map-vote-tooltip-stats dt { color: #a7c7c2; font-family: "DM Mono", monospace; font-size: .52rem; line-height: 1.25; }.map-vote-tooltip-stats dd { margin: 0; color: #eef4ed; font-family: "DM Mono", monospace; font-size: .76rem; font-weight: 700; }.map-vote-tooltip span { position: relative; z-index: 1; }
+
+.light .map-vote-tooltip { border-color: #c6d8d3; background: rgba(255,254,250,.98); color: #183940; box-shadow: 0 12px 30px rgba(28,59,62,.18); }.light .map-vote-tooltip::after { border-color: #c6d8d3; background: rgba(255,254,250,.98); }.light .map-vote-tooltip-kicker, .light .map-vote-tooltip-stats dt { color: #6b8584; }.light .map-vote-tooltip-stats dd { color: #183940; }
+
+@media (max-width: 760px) { .map-vote-tooltip { min-width: 176px; padding: 9px 10px; }.map-vote-tooltip strong { font-size: .84rem; }.map-vote-tooltip-stats { gap: 5px; }.map-vote-tooltip-stats dt { font-size: .48rem; }.map-vote-tooltip-stats dd { font-size: .7rem; } }
+
+@media (prefers-reduced-motion: no-preference) {
+  .map-vote-tooltip.is-visible { animation: map-tooltip-enter 170ms cubic-bezier(.23,1,.32,1) both; }
+  .map-vote-tooltip.is-closing { animation: map-tooltip-exit 160ms cubic-bezier(.77,0,.175,1) both; }
+  @keyframes map-tooltip-enter { from { opacity: 0; transform: translate(-50%, -98%) scale(.96); } to { opacity: 1; transform: translate(-50%, -108%) scale(1); } }
+  @keyframes map-tooltip-exit { from { opacity: 1; transform: translate(-50%, -108%) scale(1); } to { opacity: 0; transform: translate(-50%, -102%) scale(.98); } }
+}
+
+.map-vote-tooltip.is-static { animation: none !important; opacity: 1; transform: translate(-50%, -108%); }
