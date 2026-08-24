@@ -15,7 +15,7 @@ import {
   type InsertUser,
   userProfiles,
   users,
-} from "../shared/_core";
+} from "@shared/_core";
 import { CITY_BY_CODE } from "../shared/cities";
 import {
   DAILY_PARTICIPATION_LIMIT,
